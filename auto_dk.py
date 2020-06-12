@@ -10,10 +10,10 @@ from email.mime.text import MIMEText
 # 收件人列表
 mail_namelist = ["921335613@qq.com"]
 # 发送方信息
-mail_user = "2230871059@qq.com"
+mail_user = "*****@qq.com"
 # 口令,注意这里是腾讯的授权码，可不是什么 QQ密码或者独立密码！
 # http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
-mail_pass = "epdsoejrewuedhgg"
+mail_pass = "*****"
 def send_qq_email(title, conen):
     try:
         msg = MIMEText(str(conen))
@@ -79,5 +79,5 @@ def main():
         elif nowTime == '19:01:00':
             auto_dk()
         else:
-            print('\r当前时间'+nowTime+',肖乐休眠状态',end='')
+            print('\r当前时间'+nowTime+',**休眠状态',end='')
 main()
